@@ -333,7 +333,7 @@ body {
 
 body {
   font-family: Roboto, sans-serif;
-  color: #757575;
+  color: white;
   background-color: #ffffff;
 }
 
@@ -369,17 +369,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-  }
-}
-
-.section {
-  padding: 60px 0;
-}
-
-@media screen and (min-width: 1200px) {
-  .section {
-    padding: 94px 0;
+    width: 1350px;
   }
 }
 
@@ -722,10 +712,6 @@ body {
   color: var(--second-title-color);
 }
 
-.card__content {
-  padding: 30px 32px;
-}
-
 .card__title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -762,14 +748,15 @@ body {
 
 @media screen and (min-width: 768px) {
   .card {
-    flex-basis: calc(100% / 2 - 30px);
-    margin: 15px;
+    flex-basis: calc(100% / 2 - 90px);
+    margin: 45px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .card {
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc(100% / 4 - 90px);
+    margin-bottom: 0px;
   }
 }
 
@@ -1596,7 +1583,6 @@ body {
 @media screen and (min-width: 1200px) {
   .hero {
     width: 100%;
-    max-width: 1600px;
     min-height: 450px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-note-1x.jpg);
     padding-top: 200px;
@@ -1808,7 +1794,7 @@ body {
 }
 
 .section--background-color {
-  background-color: #f5f4fa;
+  background-color: white;
 }
 
 .team__list {
@@ -1826,7 +1812,7 @@ body {
 @media screen and (min-width: 1200px) {
   .team__list {
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 
@@ -1879,6 +1865,7 @@ body {
 .footer {
   background: var(--main-site-section);
   padding: 60px 0;
+  margin-top: 60px;
 }
 
 .footer__container {
