@@ -5,7 +5,7 @@
   z-index: 3;
   height: 100%;
   width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.62);
     opacity: 1;
     visibility: visible;
     transition-property: opacity, visibility;
@@ -32,10 +32,10 @@
     transform: translate(-50%, -50%) scale(1);
     width: 90%;
     height: auto;
-    padding: 40px;
+    padding: 15px 15px 0px 15px;
     background-color: var(--main-title-color);
     opacity: 1;
-    border-radius: 4px;
+    border-radius: 6px;
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     
@@ -45,8 +45,8 @@
     transition-timing-function: var(--function);
 
     @media screen and (min-width: 480px) {
-      width: 450px;
-      height: 609px;
+      width: 500px;
+      // height: 609px;
     }
 
     // @media screen and (min-width: 1200px) {
@@ -64,6 +64,20 @@
     letter-spacing: 0.03em;
     color: white;
   }
+
+    .modal__heading2 {
+      display:flex;
+      justify-content: center;
+      margin-top: 0;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: black;
+    }
   
   .modal__form {
     position: relative;
@@ -137,7 +151,7 @@
     height: 50px;
     border: 2px solid rgba(33, 33, 33, 0.2);
     // border-radius: 4px;
-    border-color: blueviolet;
+    border-color: #9927B5;
     padding-left: 10px;
     transition-property: border;
     transition-duration: $duration;
@@ -269,7 +283,7 @@
     // width: 200px;
     height: 50px;
     color: #fff;
-    background-color: blueviolet;
+    background-color: #9927B5;
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -279,7 +293,7 @@
     
     // border-radius: 4px;
     border: 0;
-    color: var(--main-title-color);
+    color: #fff;
     cursor: pointer;
 
     @media screen and (min-width: 1200px) {
