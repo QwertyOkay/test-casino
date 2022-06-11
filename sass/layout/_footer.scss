@@ -13,7 +13,7 @@
       display: flex;
       align-items: baseline;
       text-align: left;
-      padding-left: 70px;
+      padding-left: 80px;
     }
   }
   
@@ -41,15 +41,13 @@
     color: #fff;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    // transition-property: color;
-    // transition-duration: var(--duration);
-    // transition-timing-function: var(--function);
-
+  
+    
     @media screen and(min-width:1200px) {
-      margin-bottom: 5px;
+      margin-bottom: 3px;
     }
   }
 
@@ -67,7 +65,8 @@
   }
 
   .margin {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-family: Roboto, sans-serif;
       font-weight: 200px;
+      font-size: 14px;
   }
